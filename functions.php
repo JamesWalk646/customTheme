@@ -34,4 +34,10 @@ $locations = array(
     'menu-2' => 'Navigation Menu 2',
 );
 register_nav_menus( $locations);
+function custom_my_custom_hooks(){
+    echo "<h1>Iam a Custom Hooks </h1>";
+}
+function custom_my_custom_hooks1(){
+    echo "<h1>Iam a Custom Hooks One </h1>";
+}
 ?>

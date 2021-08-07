@@ -12,14 +12,5 @@
         'theme_location'  => 'menu-1',
     );
     wp_nav_menu($defaults); 
-
-    echo get_template_directory();
-    echo "<br>";
-    echo get_stylesheet_directory();
-    echo "<br>";
-    echo get_template_directory_uri();
-    echo "<br>";
-    echo get_stylesheet_directory_uri();
-    echo "<br>";
-    echo get_stylesheet_uri();
+    echo apply_filters('my_custom_hook','Hello World');
     ?>
